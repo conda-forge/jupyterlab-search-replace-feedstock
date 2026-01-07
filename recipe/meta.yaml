@@ -1,13 +1,13 @@
 {% set name = "jupyterlab_search_replace" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower|replace("_", "-") }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f139bd7de9aa9b9c67a6fa4e0354ade4d9c07e8458e32f0287661c30db91723f
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 06f400c0c9c85ac463fcd29434cb9be09b52a04a76300bc1eb547d81e4e984d9
 
 build:
   number: 0
